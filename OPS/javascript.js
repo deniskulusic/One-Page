@@ -18,6 +18,10 @@ const swiper = new Swiper('.swiper', {
     document.querySelector(".menu-full").classList.toggle('menu-active');
     document.body.classList.toggle('stop-sroll');
   }
+  function youtube() {
+    document.querySelector(".youtube").classList.toggle('youtube-active');
+    document.body.classList.toggle('stop-sroll');
+  }
 
 
   var offsetselector1 = document.querySelector(".galerija");
