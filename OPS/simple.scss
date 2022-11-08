@@ -42,11 +42,18 @@ html {
       div{
         display: flex;
       }
+      img{
+        height: 50px;
+        width: auto;
+      }
       }
       .shoping{
         cursor: pointer;
-        height: 25px;
-        width: 30px;
+        img{
+          height: 25px;
+          width: 20px;
+        }
+        margin-right: 10px;
         margin-top: -4px;
         
         
@@ -237,14 +244,14 @@ text-transform: none;
 }
 H1{
     box-sizing: border-box;
-color: rgb(24, 29, 78);
+color: #9a8d83;
 font-family: ivypresto-display, serif;
-font-size: 57.008px;
+font-size: 64.008px;
 font-style: normal;
 font-weight: 300;
 hyphens: manual;
 letter-spacing: normal;
-line-height: 57px;
+line-height: 64px;
 margin-bottom: 26.2237px;
 margin-top: 59.2883px;
 outline-color: rgb(24, 29, 78);
@@ -257,94 +264,56 @@ text-decoration-style: solid;
 text-decoration-thickness: auto;
 text-transform: none;
 }
-h2{
-    box-sizing: border-box;
-color: rgb(24, 29, 78);
-font-family: ivypresto-display, serif;
+h2 {
+  box-sizing: border-box;
+color: #9a8d83;
 font-size: 47.008px;
-font-style: normal;
-font-weight: 300;
+-webkit-hyphens: manual;
+-ms-hyphens: manual;
 hyphens: manual;
 letter-spacing: normal;
 line-height: 48px;
 margin-bottom: 26.3245px;
 margin-top: 31.4954px;
-outline-color: rgb(24, 29, 78);
+outline-color: #9a8d83;
 outline-style: none;
 outline-width: 0px;
 overflow-wrap: break-word;
-text-decoration-color: rgb(24, 29, 78);
+-webkit-text-decoration-color: #9a8d83;
+text-decoration-color: #9a8d83;
+-webkit-text-decoration-line: none;
 text-decoration-line: none;
+-webkit-text-decoration-style: solid;
 text-decoration-style: solid;
 text-decoration-thickness: auto;
 text-transform: none;
 }
 h3{
-    box-sizing: border-box;
-color: rgb(24, 29, 78);
-font-family: ivypresto-display, serif;
-font-size: 35.008px;
-font-style: normal;
-font-weight: 300;
-hyphens: manual;
-letter-spacing: normal;
-line-height: 38.0167px;
-margin-bottom: 25.2058px;
-margin-top: 32.9075px;
-outline-color: rgb(24, 29, 78);
-outline-style: none;
-outline-width: 0px;
-overflow-wrap: break-word;
-text-decoration-color: rgb(24, 29, 78);
-text-decoration-line: none;
-text-decoration-style: solid;
-text-decoration-thickness: auto;
-text-transform: none;
+  box-sizing: border-box;
+  color: #9a8d83;
+  font-size: 35.008px;
+  font-weight: 600;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+  letter-spacing: normal;
+  line-height: 38.0167px;
+  margin-bottom: 25.2058px;
+  margin-top: 32.9075px;
+  outline-color: #9a8d83;
+  outline-style: none;
+  outline-width: 0px;
+  overflow-wrap: break-word;
+  -webkit-text-decoration-color: #9a8d83;
+  text-decoration-color: #9a8d83;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-transform: none;
 }
-h4{
-    box-sizing: border-box;
-color: rgb(24, 29, 78);
-font-family: ivypresto-display, serif;
-font-size: 28px;
-font-style: normal;
-font-weight: 300;
-hyphens: manual;
-letter-spacing: normal;
-line-height: 34px;
-margin-bottom: 23.24px;
-margin-top: 32.2px;
-outline-color: rgb(24, 29, 78);
-outline-style: none;
-outline-width: 0px;
-overflow-wrap: break-word;
-text-decoration-color: rgb(24, 29, 78);
-text-decoration-line: none;
-text-decoration-style: solid;
-text-decoration-thickness: auto;
-text-transform: none;
-}
-h5{
-    box-sizing: border-box;
-color: rgb(24, 29, 78);
-font-family: ivypresto-display, serif;
-font-size:24px;
-font-style: normal;
-font-weight: 300;
-hyphens: manual;
-letter-spacing: normal;
-line-height: 29px;
-margin-bottom: 20.16px;
-margin-top: 31.2px;
-outline-color: rgb(24, 29, 78);
-outline-style: none;
-outline-width: 0px;
-overflow-wrap: break-word;
-text-decoration-color: rgb(24, 29, 78);
-text-decoration-line: none;
-text-decoration-style: solid;
-text-decoration-thickness: auto;
-text-transform: none;
-}
+
 @media only screen and (max-width: 650px) {
     .container{
       padding-left: 24px;
